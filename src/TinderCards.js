@@ -41,7 +41,7 @@ function TinderCards() {
             >
             <div style={{backgroundImage: "url(" + person.imgUrl + ")"}}
             className="card">
-            <h3>{person.name + ' ' + person.age} </h3>
+            <h3>{person.name + ' - ' + person.age} </h3>
             </div>
           </TinderCard>
         ))}
